@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "demo-application"
+  annotations:
+    "humanitec.com/orgId": "infosys-ltd"
+    "humanitec.com/appId": "demo-application"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
